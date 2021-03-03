@@ -118,7 +118,7 @@ class DLLStructure
       return last->data;
     }
 
-    // Best Implementation: Have an iterator that eeps track of the size. Everytime a new element is added,
+    // Best Implementation: Have an iterator that keeps track of the size. Everytime a new element is added,
     // increment by one.
     int GetSize()
     {
